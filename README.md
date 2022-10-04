@@ -10,6 +10,6 @@ The Met computers are blocking tunneling to the Expo App. To setup Expo on your 
 * Git, https://git-scm.com/
 * Visual Studio Code, https://code.visualstudio.com/
 
-Once you have this software installed follow the Expo documentation to get up and running with Expo.
+Once you have this software installed follow the Setup section in Expo documentation to get up and running.
 
 * https://docs.expo.dev/get-started/installation/
