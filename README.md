@@ -44,5 +44,6 @@ Some notes about Git
 
 * Your .gitignore file means certain files and folders are excluded from your repository e.g. node_modules. 
 * Programmers don't want you to publish all your node modules and dependencies.
-* ```npx expo install```
+* Your package.json file documents the packages required by your App.
+* ```npx expo install``` will install the packaged and dependencies for your project.
 
