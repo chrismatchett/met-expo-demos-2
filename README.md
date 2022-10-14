@@ -30,7 +30,7 @@ We will learn how to layout components in our App.
 
 * Copy the code from ./00-ShapesColours.js to your ./App.js file and test it works.
 * Edit this code to recreate the layout in the graphic file, ./assets/layout.png.
-* Get your ./App.js code to look as much like the graphic as possible
+* Get your ./App.js code to look as much like the graphic as possible.
 
 ### Exercise 4
 
@@ -39,3 +39,10 @@ We will learn how to use Git to store revisions of our code and share our code w
 Follow the instructions in the following article to push your existing Expo folder to a new Git Repository.
 
 * https://techobservatory.com/how-to-push-code-from-visual-studio-code-to-github/
+
+Some notes about Git
+
+* Your .gitignore file means certain files and folders are excluded from your repository e.g. node_modules. 
+* Programmers don't want you to publish all your node modules and dependencies.
+* ```npx expo install```
+
