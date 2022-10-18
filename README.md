@@ -51,7 +51,7 @@ Some notes about Git
 
 Follow the instructions on how to navigate between screens.
 
-* https://reactnavigation.org/docs/hello-react-navigation/
+* https://docs.expo.dev/guides/routing-and-navigation/
 * https://reactnavigation.org/docs/hello-react-navigation/
 
 Try to recreate the following two screens. Clicking on the 'Details' button sends a parameter, the number 42, to the Details Screen.
