@@ -11,7 +11,7 @@ function HomeScreen({navigation}) {
         title="Go to Details"
         onPress={() => {
           navigation.navigate('Details', {
-            itemId: 86,
+            itemId: 42,
             otherParam: 'anything you want here',
           });
       />
