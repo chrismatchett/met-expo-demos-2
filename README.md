@@ -49,8 +49,15 @@ Some notes about Git
 
 ### Exercise 5
 
-Follow the documentation on how to navigation between screens/
+Follow the instructions on how to navigate between screens.
 
 * https://reactnavigation.org/docs/hello-react-navigation/
+* https://reactnavigation.org/docs/hello-react-navigation/
+
+Try to recreate the following two screens. Clicking on the 'Details' button sends the number 42 to the Details Screen.
+
+* https://github.com/chrismatchett/met-expo-demos-2/help/navigation.png
+
+
 
 
