@@ -56,8 +56,7 @@ Follow the instructions on how to navigate between screens.
 
 Try to recreate the following two screens. Clicking on the 'Details' button sends a parameter, the number 42, to the Details Screen.
 
-* https://github.com/chrismatchett/met-expo-demos-2/assets/navigation.png
-
+* https://github.com/chrismatchett/met-expo-demos-2/blob/main/assets/navigation.png
 
 
 
