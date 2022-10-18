@@ -28,7 +28,7 @@ Now you are up and running with Expo work your way through their Tutorial
 
 We will learn how to layout components in our App.
 
-* Copy the code from ./00-ShapesColours.js to your ./App.js file and test it works.
+* Copy the code from ./01-ShapesColours.js to your ./App.js file and test it works.
 * Edit this code to recreate the layout in the graphic file, ./assets/layout.png.
 * Get your ./App.js code to look as much like the graphic as possible.
 
@@ -54,9 +54,9 @@ Follow the instructions on how to navigate between screens.
 * https://reactnavigation.org/docs/hello-react-navigation/
 * https://reactnavigation.org/docs/hello-react-navigation/
 
-Try to recreate the following two screens. Clicking on the 'Details' button sends the number 42 to the Details Screen.
+Try to recreate the following two screens. Clicking on the 'Details' button sends a parameter, the number 42, to the Details Screen.
 
-* https://github.com/chrismatchett/met-expo-demos-2/help/navigation.png
+* https://github.com/chrismatchett/met-expo-demos-2/assets/navigation.png
 
 
 
