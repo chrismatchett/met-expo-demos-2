@@ -47,3 +47,10 @@ Some notes about Git
 * Your package.json file documents the packages required by your App.
 * ```npx expo install``` will install the packaged and dependencies for your project.
 
+### Exercise 5
+
+Follow the documentation on how to navigation between screens/
+
+* https://reactnavigation.org/docs/hello-react-navigation/
+
+
