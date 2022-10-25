@@ -38,6 +38,9 @@ We will learn how to use Git to store revisions of our code and share our code w
 
 Follow the instructions in the following article to push your existing Expo folder to a new Git Repository.
 
+* Before you start working through the article below run the following commands in Visual Studio Code terminal.
+* git config --global user.name "John Doe"
+* git config --global user.email johndoe@example.com
 * https://techobservatory.com/how-to-push-code-from-visual-studio-code-to-github/
 
 Some notes about Git
