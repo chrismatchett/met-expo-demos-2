@@ -65,6 +65,8 @@ Try to recreate the following two screens. Clicking on the 'Details' button send
 
 Create an app that looks and behaves like the screens below. This builds on what we have been learning.
 
+You will need to learn how to use [TextInput](https://docs.expo.dev/versions/latest/react-native/textinput/) to recreate below.
+
 ![Pizza Screen](https://github.com/chrismatchett/met-expo-demos-2/blob/main/assets/pizza-screens.png?raw=true)
 
 
