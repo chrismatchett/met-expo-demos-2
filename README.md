@@ -65,7 +65,7 @@ Try to recreate the following two screens. Clicking on the 'Details' button send
 
 Create an app that looks and behaves like the screens below. This builds on what we have been learning.
 
-![Pizza Screen](https://github.com/chrismatchett/met-expo-demos-2/blob/main/assets/pizza-screen.png?raw=true)
+![Pizza Screen](https://github.com/chrismatchett/met-expo-demos-2/blob/main/assets/pizza-screens.png?raw=true)
 
 
 
