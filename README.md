@@ -61,5 +61,11 @@ Try to recreate the following two screens. Clicking on the 'Details' button send
 
 * https://github.com/chrismatchett/met-expo-demos-2/blob/main/assets/navigation.png
 
+### Exercise 6
+
+Create an app that looks and behaves like the screens below. This builds on what we have been learning.
+
+![Pizza Screen](https://github.com/chrismatchett/met-expo-demos-2/blob/main/assets/pizza-screen.png?raw=true)
+
 
 
