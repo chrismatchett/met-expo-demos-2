@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Button } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
@@ -15,6 +15,7 @@ function HomeScreen({navigation}) {
             itemId: 86,
             otherParam: 'anything you want here',
           });
+        }}
       />
     </View>
   );
