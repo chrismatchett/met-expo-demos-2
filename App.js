@@ -4,7 +4,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 function HomeScreen({navigation}) {
-
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Home Screen</Text>
@@ -12,9 +11,10 @@ function HomeScreen({navigation}) {
         title="Go to Details"
         onPress={() => {
           navigation.navigate('Details', {
-            itemId: 86,
+            itemId: 42,
             otherParam: 'anything you want here',
           });
+        }}
       />
     </View>
   );
