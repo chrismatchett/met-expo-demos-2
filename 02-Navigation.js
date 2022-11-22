@@ -14,6 +14,7 @@ function HomeScreen({navigation}) {
             itemId: 42,
             otherParam: 'anything you want here',
           });
+        }}
       />
     </View>
   );
