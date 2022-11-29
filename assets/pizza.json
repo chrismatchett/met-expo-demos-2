@@ -1,5 +1,4 @@
-{
-	"pizzas": [{
+[{
 			"id": 1,
 			"name": "Margherita",
 			"veg": true,
@@ -120,4 +119,3 @@
 			}]
 		}
 	]
-}
