@@ -1,123 +1,123 @@
 {
-pizzas: [{
-		"id": 1,
-		"name": "Margherita",
-		"veg": true,
-		"price": 3,
-		"description": "Cheese",
-		"quantity": 1,
-		"img": "",
-		"sizeandcrust": [{
-			"mediumPan": [{
-				"price": 3
-			}],
-			"mediumstuffedcrustcheesemax": [{
-				"price": 5
-			}],
-			"mediumstuffedcrustvegkebab": [{
-				"price": 8
+	"pizzas": [{
+			"id": 1,
+			"name": "Margherita",
+			"veg": true,
+			"price": 3,
+			"description": "Cheese",
+			"quantity": 1,
+			"img": "",
+			"sizeandcrust": [{
+				"mediumPan": [{
+					"price": 3
+				}],
+				"mediumstuffedcrustcheesemax": [{
+					"price": 5
+				}],
+				"mediumstuffedcrustvegkebab": [{
+					"price": 8
+				}]
 			}]
-		}]
-	},
-	{
-		"id": 2,
-		"name": "Tandoori Paneer",
-		"veg": true,
-		"price": 7,
-		"description": "Spiced paneeer, Onion,Green Capsicum & Red Paprika in Tandoori Sauce",
-		"quantity": 1,
-		"img": "",
-		"sizeandcrust": [{
-			"mediumPan": [{
-				"price": 7
-			}],
-			"mediumstuffedcrustcheesemax": [{
-				"price": 9
-			}],
-			"medium stuffed crust-veg kebab": [{
-				"price": 12
+		},
+		{
+			"id": 2,
+			"name": "Tandoori Paneer",
+			"veg": true,
+			"price": 7,
+			"description": "Spiced paneeer, Onion,Green Capsicum & Red Paprika in Tandoori Sauce",
+			"quantity": 1,
+			"img": "",
+			"sizeandcrust": [{
+				"mediumPan": [{
+					"price": 7
+				}],
+				"mediumstuffedcrustcheesemax": [{
+					"price": 9
+				}],
+				"medium stuffed crust-veg kebab": [{
+					"price": 12
+				}]
 			}]
-		}]
-	},
-	{
-		"id": 3,
-		"name": "Veggie Supreme",
-		"veg": true,
-		"price": 8,
-		"description": "Black Olives,Green Capsicum, Mushroom, Onion,Red Paprika, Sweet Corn",
-		"quantity": 1,
-		"img": "",
-		"sizeandcrust": [{
-			"mediumPan": [{
-				"price": 8
-			}],
-			"mediumstuffedcrustcheesemax": [{
-				"price": 9
-			}],
-			"medium stuffed crust-veg kebab": [{
-				"price": 10
+		},
+		{
+			"id": 3,
+			"name": "Veggie Supreme",
+			"veg": true,
+			"price": 8,
+			"description": "Black Olives,Green Capsicum, Mushroom, Onion,Red Paprika, Sweet Corn",
+			"quantity": 1,
+			"img": "",
+			"sizeandcrust": [{
+				"mediumPan": [{
+					"price": 8
+				}],
+				"mediumstuffedcrustcheesemax": [{
+					"price": 9
+				}],
+				"medium stuffed crust-veg kebab": [{
+					"price": 10
+				}]
 			}]
-		}]
-	},
-	{
-		"id": 4,
-		"name": "Double Paneer Supreme",
-		"veg": true,
-		"price": 6,
-		"description": "Spiced Paneer, Herbed Onion&Green Capsicum, Red Paprika",
-		"quantity": 1,
-		"img": "",
-		"sizeandcrust": [{
-			"mediumPan": [{
-				"price": 6
-			}],
-			"mediumstuffedcrustcheesemax": [{
-				"price": 7
-			}],
-			"medium stuffed crust-veg kebab": [{
-				"price": 9
+		},
+		{
+			"id": 4,
+			"name": "Double Paneer Supreme",
+			"veg": true,
+			"price": 6,
+			"description": "Spiced Paneer, Herbed Onion&Green Capsicum, Red Paprika",
+			"quantity": 1,
+			"img": "",
+			"sizeandcrust": [{
+				"mediumPan": [{
+					"price": 6
+				}],
+				"mediumstuffedcrustcheesemax": [{
+					"price": 7
+				}],
+				"medium stuffed crust-veg kebab": [{
+					"price": 9
+				}]
 			}]
-		}]
-	},
-	{
-		"id": 4,
-		"name": "Veggie Kebab Surprise",
-		"veg": true,
-		"price": 4,
-		"description": "Veg Kebab,Onion,Green Capsicum,Tomato & Sweet Corn in Tandoori Sauce",
-		"quantity": 1,
-		"img": "",
-		"sizeandcrust": [{
-			"mediumPan": [{
-				"price": 5
-			}],
-			"mediumstuffedcrustcheesemax": [{
-				"price": 6
-			}],
-			"medium stuffed crust-veg kebab": [{
-				"price": 8
+		},
+		{
+			"id": 4,
+			"name": "Veggie Kebab Surprise",
+			"veg": true,
+			"price": 4,
+			"description": "Veg Kebab,Onion,Green Capsicum,Tomato & Sweet Corn in Tandoori Sauce",
+			"quantity": 1,
+			"img": "",
+			"sizeandcrust": [{
+				"mediumPan": [{
+					"price": 5
+				}],
+				"mediumstuffedcrustcheesemax": [{
+					"price": 6
+				}],
+				"medium stuffed crust-veg kebab": [{
+					"price": 8
+				}]
 			}]
-		}]
-	},
-	{
-		"id": 5,
-		"name": "Chicken Supreme",
-		"veg": false,
-		"price": 7,
-		"description": "Herbed Chicken,Schezwan Chicken Meatball,Chicken Tikka",
-		"quantity": 1,
-		"img": "",
-		"sizeandcrust": [{
-			"mediumPan": [{
-				"price": 7
-			}],
-			"mediumstuffedcrustcheesemax": [{
-				"price": 9
-			}],
-			"mediumstuffedcrustchickenseekhkebab": [{
-				"price": 12
+		},
+		{
+			"id": 5,
+			"name": "Chicken Supreme",
+			"veg": false,
+			"price": 7,
+			"description": "Herbed Chicken,Schezwan Chicken Meatball,Chicken Tikka",
+			"quantity": 1,
+			"img": "",
+			"sizeandcrust": [{
+				"mediumPan": [{
+					"price": 7
+				}],
+				"mediumstuffedcrustcheesemax": [{
+					"price": 9
+				}],
+				"mediumstuffedcrustchickenseekhkebab": [{
+					"price": 12
+				}]
 			}]
-		}]
-	}
-]
+		}
+	]
 }
