@@ -17,7 +17,7 @@ function OrderScreen({ route, navigation }) {
       <View style={[styles.section, {backgroundColor: "white"}]}>
         <Text style={styles.heading1}>Order</Text>
         <Text>{data.name}</Text>
-        <Text>{data.price}</Text>
+        <Text>£{data.price}</Text>
         <Text>{data.description}</Text>
       </View>
     </View>

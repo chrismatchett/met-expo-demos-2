@@ -69,5 +69,14 @@ You will need to learn how to use [TextInput](https://docs.expo.dev/versions/lat
 
 ![Pizza Screen](https://github.com/chrismatchett/met-expo-demos-2/blob/main/assets/pizza-screens.png?raw=true)
 
+### Exercise 7
+
+We can extend the functionality of our app by connecting to a remote data source and dis.
+
+* Use [Fetch](https://reactnative.dev/docs/network) to retrieve data from a remote source
+* Use [FlatList](https://reactnative.dev/docs/flatlist) to display the data
+
+![Pizza Screen](https://github.com/chrismatchett/met-expo-demos-2/blob/main/assets/pizza-screens-fetch.png?raw=true)
+
 
 
