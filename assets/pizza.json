@@ -79,7 +79,7 @@
 			}]
 		},
 		{
-			"id": 4,
+			"id": 5,
 			"name": "Veggie Kebab Surprise",
 			"veg": true,
 			"price": 4,
@@ -99,7 +99,7 @@
 			}]
 		},
 		{
-			"id": 5,
+			"id": 6,
 			"name": "Chicken Supreme",
 			"veg": false,
 			"price": 7,
