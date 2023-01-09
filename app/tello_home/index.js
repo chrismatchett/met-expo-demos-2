@@ -1,62 +1,47 @@
 import React, { useRef, useState } from 'react';
 import { View, StyleSheet, SafeAreaView, StatusBar, Button, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import * as Network from 'expo-network';
-import Tello from 'rn-dji-tello';
+
+import dgram from 'react-native-udp'
 
 function HomeScreen({ navigation }) {
 
-    const [init, setInit] = useState(false);
-    const drone = useRef(Tello);
+    const [init, setInit] = useState("init");
+
 
     async function getIp(){
         await Network.getIpAddressAsync();
     }
 
-    const onInit = () => {
-        try {
+    const run = () => {
+        try{
+            const socket = dgram.createSocket('udp4')
+        } catch(err){
+            setInit(JSON.stringify(err));
 
-            drone.current = new Tello();
-
-            drone.current.on('connection', () => {
-                setInit(true);
-                console.log('Connected to drone');
-            });
-
-            drone.current.on('state', state => {
-                console.log('Received State > ', state);
-            });
-
-            drone.current.on('send', (err, length) => {
-                if (err) {
-                    console.log('error', err);
-                }
-                console.log(`Sent command is ${length} long`);
-            });
-
-            drone.current.on('message', message => {
-                console.log('Recieved Message > ', message);
-            });
-
-        } catch (error) {
-            console.error(error);
-            setInit(false);
         }
-    };
-
-    const run = async () => {
-        await drone.current?.send('takeoff');
-        await drone.current?.send('battery?');
-        await drone.current?.send('land');
-    };
+        
+        /*
+        socket.bind(4000)
+        socket.once('listening', function() {
+          socket.send('Hello World!', undefined, undefined, "4000", "0.0.0.0", function(err) {
+            if (err) throw err
+        
+            console.log('Message sent!')
+          })
+        })
+        socket.on('message', function(msg, rinfo) {
+          console.log('Message received', msg)
+        })
+        */
+    }
 
     return (
         <SafeAreaView style={styles.container}>
             <StatusBar barStyle="light-content" />
             <View style={styles.viewWrapper}>
-                <Text>IP: {getIp}</Text>
-                <Button title="Run" disabled={!init} onPress={run} />
-                <Button title="Init" disabled={init} onPress={onInit} />
+                <Text>IP: {init}</Text>
+                <Button title="Run" onPress={run} />
             </View>
         </SafeAreaView>
     );
