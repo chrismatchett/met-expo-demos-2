@@ -1,3 +1,20 @@
+/*
+import dgram from 'react-native-udp'
+
+const socket = dgram.createSocket('udp4')
+socket.bind(12345)
+socket.once('listening', function() {
+  socket.send('Hello World!', undefined, undefined, remotePort, remoteHost, function(err) {
+    if (err) throw err
+
+    console.log('Message sent!')
+  })
+})
+
+socket.on('message', function(msg, rinfo) {
+  console.log('Message received', msg)
+})*/
+
 import React, { useRef, useState } from 'react';
 import { View, StyleSheet, SafeAreaView, StatusBar, Button, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
@@ -14,12 +31,19 @@ function HomeScreen({ navigation }) {
     }
 
     const run = () => {
-        try{
-            const socket = dgram.createSocket('udp4')
-        } catch(err){
-            setInit(JSON.stringify(err));
 
-        }
+        const socket = dgram.createSocket('udp4');
+        socket.bind(4000)
+        socket.once('listening', function() {
+            socket.send('Hello World!', undefined, undefined, "4000", "0.0.0.0", function(err) {
+            //if (err) throw err
+            setInit(JSON.stringify(err));
+            })
+        })
+
+        socket.on('message', function(msg, rinfo) {
+            console.log('Message received', msg)
+        });
         
         /*
         socket.bind(4000)
