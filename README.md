@@ -81,7 +81,12 @@ We can extend the functionality of our app by connecting to a remote data source
 ## The Trello Drone Project
 
 ![Trello Drone Team](assets/drone-class-202302.jpg?raw=true "Trello Drone Team")
-Philip O'Meara, Gerard King, Chris Matchett
+
+Philip O'Meara, Gerard King, Chris Matchett, 07/02/2023
+
+### Overview
+
+To conclude the IoT App Development night class of 2022/2023 the class made an app to control the Trello Drone.
 
 
 
