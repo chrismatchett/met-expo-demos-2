@@ -78,15 +78,31 @@ We can extend the functionality of our app by connecting to a remote data source
 
 ![Pizza Screen](https://github.com/chrismatchett/met-expo-demos-2/blob/main/assets/pizza-screen-fetch.png?raw=true)
 
-## The Trello Drone Project
+## The Tello Drone Project
 
-![Trello Drone Team](assets/drone-class-202302.jpg?raw=true "Trello Drone Team")
+![Tello Drone Team](assets/drone-class-202302.jpg?raw=true "Tello Drone Team")
 
 Philip O'Meara, Gerard King, Chris Matchett, 07/02/2023
 
 ### Overview
 
-To conclude the IoT App Development night class of 2022/2023 the class made an app to control the Trello Drone.
+To conclude the IoT App Development night class of 2022/2023 the class made an app to control the Tello Drone. There were quite a few challenges but we were delighted to eventually get the drone to fly.
+
+### Challenges getting the drone to fly
+
+#### There is no built-in Expo module for the Tello drone
+
+* We used the rn-dji-tello module which is known to work on React Native, not Expo.
+* Intially the rn-dji-tello would not work as Expo has no built-in support for UDP connections.
+* Tello drones connect to remote devices by UDP.
+
+#### There is no built-in Expo support for UDP.
+
+* We eventually created a test UDP connection using the react-native-udp package. 
+* Our environment required react-native-udp 4.1.5, ater versions would not build.
+#### The Expo Go App does not support UDP connections.
+* We used the built in Expo module,  expo-dev-client.
+* We built an APK file to test on Android  
 
 
 
