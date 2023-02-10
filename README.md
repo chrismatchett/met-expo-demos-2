@@ -99,10 +99,24 @@ To conclude the IoT App Development night class of 2022/2023 the class made an a
 #### There is no built-in Expo support for UDP.
 
 * We eventually created a test UDP connection using the react-native-udp package. 
-* Our environment required react-native-udp 4.1.5, ater versions would not build.
+* Our environment required react-native-udp 4.1.5, later versions would not build.
+
 #### The Expo Go App does not support UDP connections.
+
 * We used the built in Expo module,  expo-dev-client.
-* We built an APK file to test on Android  
+* We built an APK file so we could test our own local Android app.
+* The local Expo App did support UDP connections
+
+#### The Local Expo Dev App would not work without Internet Connectivity 
+
+* Connection to the Tello drone requires connecting your device to the Tello's built-in WiFi network.
+* The local Expo App hangs without a working Internet connection.
+* Therefore we could use the local Expo App any further.
+
+#### React Native as a solution
+
+* React Native did not have an issue establishing a UDP connection to the Tello drone in development mode.
+* We ported our code from the Expo app to React Native and were delighted to see the drone fly in response to our app's commands. 
 
 
 
