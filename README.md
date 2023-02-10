@@ -80,6 +80,8 @@ We can extend the functionality of our app by connecting to a remote data source
 
 ## The Trello Drone Project
 
+![Trello Drone Team](assets/drone-class-202302.jpg?raw=true "Trello Drone Team")
+Philip O'Meara, Gerard King, Chris Matchett
 
 
 
